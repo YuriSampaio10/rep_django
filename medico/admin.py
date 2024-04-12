@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Person, Medico
+from .models import Medico, Especialidade
 
 # Registrando os modelos para serem gerenciados pelo admin
-admin.site.register(Person)
 admin.site.register(Medico)
+admin.site.register(Especialidade)
 
